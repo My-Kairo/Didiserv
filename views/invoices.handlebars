@@ -1,0 +1,103 @@
+<div class="container">
+    <div class="header">
+        <img class="logo" src="https://didiserv.co.za/wp-content/uploads/2021/07/logo-Didiserv-300px.png">
+    </div>
+    <div class="navbar">
+            <ul>
+                <li><a href="/index">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/invoices">Invoices</a></li>
+                <li><a href="/contact">Contact Us</a></li>
+            </ul>                
+    </div>
+
+    <section class='inner-section'>
+
+    <div class=row>
+        <div class='box'>
+        <h1>Invoices</h1>
+
+        {{#if messages.info}}
+
+            <div class='error'>
+                {{messages.info}}
+            </div>
+            {{/if}}
+            <div class='display'>
+                
+                <span class='nameDisplayed'>
+                        <div>{{pull}}</div>
+                </span>
+                
+            </div>
+            <form class='form' action='/invoice' method='POST'>
+            <div class='naming'>
+                Name
+            </div>
+            <div class='naming'>
+                <input class='textBoxBttn' value='' name='textBoxBttn' type='text' placeholder='type name'>
+                <label class='countHere'>{{requestTimes}}</label>
+            </div>
+            
+            <div class='naming'>
+                {{!-- <table style="background-color: gray;"> --}}
+                    {{!-- <tr>
+                        <td> --}}
+                            <h3 class="vw">Veiwers
+                                <span class='counter'>{{count}}</span>
+                            </h3>
+                        {{!-- </td>
+                    </tr>
+                </table> --}}
+                
+            </div>
+            
+            <div class='requested'><a href='/requests'><h3>See yourself in a list</h3></a></div>
+            <div class='radios'>
+                <label class=''>
+                    <input class='radioBttns' type='radio' id='id1' name='outstanding' value='Paid'>
+                    <span class='labelRadio'>Paid</span>
+                </label>
+                <label class=''>
+                    <input class='radioBttns' type='radio' id='id2' name='outstanding' value='Unpaid'>
+                    <span class='labelRadio'>Unpaid</span>
+                </label>
+            </div>
+
+            <div class='request'>
+            <button class='bttn requestBtn' type='submit' id='theGrt' name='button'> <span>Request!</span></button>
+            </div>
+            </form>
+            
+            {{!-- <div class='reset'>
+            <form action='/reset' method="POST">
+            <button class='primary-bttn resetBtn' type='button' name='button'> <span>RESET!</span></button>
+            </form>
+            </div> --}}
+            
+        </div>
+    </div>
+</section>
+
+    <div class="footer">
+        <div class="number">
+            <p>(+27)-61-547-2439</p>
+            <p>info@didiserv.co.za</p>
+        </div>
+        <div class="links">
+            <a class="down" href="https://didiserv.co.za/about/">About</a>
+            <a class="down" href="https://didiserv.co.za/pricing/blackfriday/">Black Friday</a>
+            <a class="down" href="https://didiserv.co.za/blog/">Blog</a>
+            <a class="down" href="https://didiserv.co.za/shop/cart/">Cart</a>
+            <a class="down" href="https://didiserv.co.za/client-details/">Client Details</a>
+        </div>
+        <div class="social">
+            <a href="https://didiserv.co.za/facebook" class="fa fa-facebook"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="https://didiserv.co.za/twitter" class="fa fa-twitter"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="https://didiserv.co.za/google" class="fa fa-google"><ion-icon name="logo-google"></ion-icon></a>
+            <a href="https://didiserv.co.za/linkedin" class="fa fa-linkedin"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="https://didiserv.co.za/instagram" class="fa fa-instagram"><ion-icon name="logo-instagram"></ion-icon></a>
+        </div>
+    </div>
+
+</div>

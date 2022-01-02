@@ -1,0 +1,23 @@
+<div class='entry'>
+    <h1>
+        User Requests
+    </h1>
+
+    {{#each namesList}}
+    <ul>
+        <a href='/veiws/{{username}}'>
+        <li>{{username}}</li>
+        </a>
+    </ul>
+    {{/each}}
+    <br>
+
+
+    <div class='btns'>
+        <form action='/home' method='POST'>
+            <button class='backbtn' type='submit'>Home</button>
+
+        </form>
+    </div>
+
+</div>

@@ -1,0 +1,553 @@
+* {
+    margin: auto;
+}
+
+body {
+    width: 100%;
+    background-image: url(https://image.shutterstock.com/image-vector/stock-market-graph-business-candle-260nw-1211189119.jpg);
+    /* margin: auto; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-top: 10px; */
+    bottom: 0;
+}
+
+.header {
+    background-image: url(https://a.rgbimg.com/users/f/fa/fangol/600/n1mtIpU.jpg);
+    background-repeat: no-repeat;
+    background-clip: inherit;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    height: 200px;
+    /* top: 0; */
+    /* left: 0; */
+    /* padding: 0 20px; */
+    /* margin-right: 5px; */
+    /* margin-left: 5px; */
+
+}
+.navbar {
+    margin: 0 auto 100px;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+    position: fixed;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 14px;
+    padding-bottom: 25px;
+}
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    float: left;
+}
+.navbar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px;
+    /* top: 0; */
+}
+.logo {
+    height: 100px;
+    width: 300px;
+}
+a {
+    color: white;
+    display: flex;
+    font-weight: bolder;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: blue;
+}
+h3 {
+    font-family: cursive;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    color: grey;
+    text-align: center;
+}
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.left {
+    width: 50%;
+    padding-left: 50px;
+    height: 1300px;
+
+
+}
+.right {
+    width: 50%;
+    height: 1300px;
+
+}
+h6 {
+    font-size: 350%;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-style: oblique;
+    font-weight: bolder;
+    color: white;
+}
+.picture {
+    height: 800px;
+    width: 95%;
+}
+p {
+    text-align: center;
+    color: white;
+    padding-bottom: 90px;
+}
+h4 {
+    color: white;
+    font-size: 100%;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+.demo {
+    color: blue;
+}
+button {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50%;
+    /* margin: 10px; */
+    padding: 10px;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    width: 100%;
+    background-image: url(https://static.showit.co/1200/KqOx89WyQrmqDh9jedXFyA/83248/emma-troy-pattern-navy.jpg);
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+}
+hr {
+    color: aliceblue;
+    border-width: 5px;
+    border-style: solid;
+    /* padding-bottom: 20px;
+    padding-top: 20px; */
+}
+.links {
+    width: 33.33%;
+    display: flex;
+    flex-direction: row;
+}
+.social {
+    width: 33.33%;
+    display: flex;
+    flex-direction: row;
+}
+.number {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-google {
+    background: #f53d30;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #2f62cf;
+    color: white;
+  }
+  .fa-instagram {
+    background: #a7049e;
+    color: white;
+  }
+  h1 {
+    font-size: 280%;
+    text-shadow: 6px 6px grey;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    margin-top: 5%;
+    text-align: center;
+    font-style: oblique;
+    font-weight: bolder;
+    color: white;
+  }
+  .about {
+      text-align: justify;
+      text-align: center;
+      text-justify: inter-word;
+      margin-left: 30%;
+      margin-right: 30%;
+  }
+  .columns {
+      width: 100%;
+      display: flex;
+      flex: row;
+      background-image: url(https://thumbs.dreamstime.com/z/accounting-teacher-presenting-concept-business-administration-auditing-finger-touching-digital-button-205185697.jpg);
+      background-size: cover;
+    
+  }
+  .first {
+      width: 50%;
+      /* background-color: yellow; */
+      height: 610px;
+      margin-left: 8%;
+      margin-top: 2%;
+  }
+  .second {
+      width: 50%;
+      /* background-color: green; */
+      height: 610px;
+      margin-top: 2%;
+      margin-left: 8%;
+  }
+  .bullets {
+    list-style: url(https://www.fg-a.com/arrows/FORWARD212.GIF);
+    font-size: larger;
+  }
+li {
+    padding-bottom: 50px;
+}
+h2 {
+    margin-bottom: 15px;
+}
+.vl {
+    border-right: 3px solid black;
+    height: 400px;
+    left: 0;
+}
+span {
+    text-align: center;
+    content: "\00A9";
+    justify-content: center;
+}
+h5 {
+    font-size: 280%;
+    text-shadow: 8px 6px 4px grey;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    margin-top: 5%;
+    text-align: center;
+    font-style: oblique;
+    font-weight: bolder;
+    color: white;
+}
+.companies {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    /* margin-left: 0.1%; */
+}
+.one {
+    width: 15%;
+    /* background-color: yellow; */
+}
+.two {
+    width: 15%;
+    /* background-color: red; */
+
+}
+.three {
+    width: 15%;
+    /* background-color: blue; */
+
+}
+.four {
+    width: 15%;
+    /* background-color: green; */
+
+}
+.five {
+    width: 25%;
+    /* background-color: pink */
+
+}
+.mage {
+    width: 200px;
+    height: 150px;
+}
+.mage1 {
+    width: 300px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: rgb(249, 176, 252) solid;
+    border-radius: 1%;
+    box-shadow: 5px 4px 4px 7px lightblue;
+    box-shadow: lightblue;
+    margin: auto;
+    font-family: cursive;
+    height: 99vh;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.display{
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: large;
+    font-weight: 50%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    /* padding-left: 45%; */
+    /* position: relative; */
+}
+
+.error{
+    font-size: 10px;
+    color: rgb(250, 10, 10);
+    width: 50%;
+    font-size: 35px;
+    font-weight: bolder;
+    margin-left: 35%;
+    text-align: center;
+    padding-top: 0%;
+}
+.naming{
+    display: flex;
+    flex-direction: row;
+    color: rgb(3, 4, 5);
+    /* height: 5vh; */
+    text-align: center;
+    padding-left: 35%;
+    padding-top: 0%;
+}
+
+.counter{
+    padding-top: 20px;
+    padding-left: 10px;
+    color: white;
+}
+.radios{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 75%;
+    text-align: center;
+    color: rgb(18, 30, 41);
+    padding-top: 25px;
+
+}
+
+.vw{
+    color: grey;
+}
+.error{
+    padding-top: 0%;
+}
+.finish{
+    padding-top: 2%;
+}
+.requested{
+    text-align: center;
+    background-color: rgb(3, 69, 145);
+    border-style: groove;
+    text-decoration: none;
+    border-radius: 50%;
+    width: 300px;
+}
+.request{
+    margin-top: 4%;
+    /* margin-bottom: 4%; */
+}
+.labelRadio {
+    color: white;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.requestBtn {
+    transition-duration: 00.5s;
+    background-color: rgb(108, 183, 206);
+    color: white;
+    font-size: 20px;
+    width: 150px;
+    height: 7vh;
+    border-radius: 50%;
+    /* text-align: center; */
+}
+.primary-bttn {
+    width: 15px;
+}
+.requestBtn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition-duration: 00.5s;
+}
+.requestBtn:hover {
+    background-color: rgb(97, 167, 247);
+    color: rgb(247, 8, 227);
+    box-shadow: 1 10px 20px 1 rgb(99, 175, 236), 0 8px 30px 0 rgb(110, 169, 247);
+}
+.requestBtn span::after {
+    /* content: '\00bb'; */
+    position: absolute;
+    opacity: 2;
+    top: 0;
+    right: 20px;
+    transition: 00.5s;
+}
+.requestBtn:hover span::after {
+    opacity: 2;
+    right: 0;
+}
+.red{
+    color: red;
+}
+
+.button-1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    justify-content: center;
+    /* background-color: darkgoldenrod; */
+}
+button{
+    /* position: absolute; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 10%;
+    font-size: 35px;
+    
+
+}
+form{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+.radio-bttn{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* background-color: darkgreen; */
+    padding-top: 30px;
+    padding-bottom: 20px;
+    justify-content: center;
+    justify-content: space-around;
+}
+input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.text-box{
+    padding-top: 20px;
+}
+.last-bttns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-size: 7px;
+    padding-top: 25px;
+}
+.rst{
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 25%;
+    font-size: 15px;
+}
+.cnt{
+    font-size: 15px;
+    border-radius: 25px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.counter {
+    text-align: center;
+    margin: 0%;
+}
+.file {
+    color: white;
+}
+.bdy {
+    height: 400px;
+}
+.slider {
+    position: relative;
+    width: 350px;
+    margin: 50px auto;
+    perspective: 1000px;
+    padding-top: 120px;
+    }
+.rotator {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 55%;
+    height: 150px;
+    transform-style: preserve-3d;
+    animation: roter 29s linear infinite;
+}
+.items {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border: 2px solid white;
+    }
+
+.items img {
+    height: 100%;
+    width: 100%;
+    transition: all 3s ease;
+}
+.items:hover img {
+    transform: scale(1.1);
+}
+@keyframes roter {
+    from {
+    transform: rotateY(0deg);
+    }
+    to {
+    transform: rotateY(360deg);
+    }
+}
